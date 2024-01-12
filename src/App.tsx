@@ -9,7 +9,12 @@ type AppProps = { //We declare the props ("title") type using "type" keyword.
 };
 
 const App: FC<AppProps> = ({title}) => {
-  return <h1>{title}</h1>;
+  return( 
+  <div>
+    <h1>{title}</h1>
+    <button className="btn btn-danger">Danger button</button>
+  </div>
+  )
 };
 
 export default App;
