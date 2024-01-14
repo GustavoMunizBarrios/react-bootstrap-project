@@ -9,6 +9,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App title='Navbar'/> {/* pass a "title" prop to the App component  */}
+    <App title='My App'/> {/* pass a "title" prop to the App component  */}
   </React.StrictMode>,
 )
